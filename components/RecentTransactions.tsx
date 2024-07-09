@@ -28,7 +28,11 @@ const RecentTransactions = ({
                             key={account.id}
                             value={account.appwriteItemId}
                         >
-                            <BankTabItem />
+                            <BankTabItem
+                                key={account.id}
+                                account={account}
+                                appwriteItemId={appwriteItemId}
+                            />
                         </TabsTrigger>
                     ))}
                 </TabsList>
@@ -38,8 +42,12 @@ const RecentTransactions = ({
                         key={account.id}
                         className="space-y-4"
                     >
-                        <BankInfo />
-                        <TransactionsTable />
+                        <BankInfo
+                            account={account}
+                            appwriteItemId={appwriteItemId}
+                            type="full"
+                        />
+                        <TransactionsTable transactions={transactions}/>
                     </TabsContent>
                 ))}
             </Tabs>
