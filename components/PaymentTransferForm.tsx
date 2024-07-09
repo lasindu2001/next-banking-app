@@ -1,3 +1,5 @@
+"use client";
+
 import { useForm } from "react-hook-form";
 import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "./ui/form"
 import { z } from "zod";
@@ -57,6 +59,9 @@ const PaymentTransferForm = ({ accounts }: PaymentTransferFormProps) => {
                                 <div className="flex w-full flex-col">
                                     <FormControl>
                                         <BankDropDown
+                                            accounts={accounts}
+                                            setValue={form.setValue}
+                                            otherStyles="!w-full"
                                         />
                                     </FormControl>
                                     <FormMessage className="text-12 text-red-500" />
