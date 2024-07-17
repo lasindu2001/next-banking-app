@@ -34,7 +34,7 @@ To get started with MoneyMaster, follow these steps:
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/your-username/moneymaster.git
+    git clone https://github.com/lasindu2001/next-banking-app.git
     ```
 
 2. Navigate to the project directory:
@@ -67,4 +67,4 @@ Contributions are welcome! If you have suggestions for improvements or encounter
 
 ## 📧 Contact
 
-For any questions or suggestions, feel free to reach out to me on [Email](lasindumvp2001@gmail.com), [LinkedIn](https://www.linkedin.com/in/lasindu-maduranga-2a0062287) or open an issue on GitHub.
+For any questions or suggestions, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/lasindu-maduranga-2a0062287) or open an issue on GitHub.
